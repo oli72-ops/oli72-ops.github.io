@@ -1,0 +1,139 @@
+
+nav.menu-nav ul li.btn{
+	display: inline-block;
+	list-style: none;
+	padding-right: 9px;
+}
+
+nav.menu-nav ul li.btn a{
+	color: white;
+	background-color: blue;
+	border-radius: 8px;
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 15px;
+
+}
+
+nav.menu-nav ul li.btn:hover a{
+	color: blue;
+	background-color: #18236D;
+	transition: 0.3s all;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #09121D;
+}
+
+.FormInscrs{
+	width: 350px;
+	height: 450px;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px;
+	border-radius: 5px;
+	border-top: 5px solid #1d4adb;
+	border-bottom: 5px solid #1d4adb;
+	box-shadow: 0 0 10px #000;
+}
+.form-text{
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.form-saisie span{
+	font-size: 14px;
+
+}
+.form-saisie input{
+	width: 100%;
+	font-size: 16px;
+	outline: none;
+	background-color: rgba(0,0,0,0.8);
+	color: #fff;
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+.form-saisie input[type="submit"].btnInscris{
+	width: 100%;
+	font-size: 18px;
+	background-color: #1d4adb;
+	color: #fff;
+	margin: 209x 0;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.5s;
+	margin-bottom: 25px;
+}
+.form-saisie input[type="submit"].btnInscris:hover{
+	background-color: blue;
+	color: #ececf0
+	transform: scale(1.05);
+}
+.form-saisie a{
+	font-size: 14px;
+	font-weight: bold;
+	color: blue;
+}
+
+
+/* Connexion */
+
+
+.FormConnexion{
+	width: 360px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 30px;
+	border-radius: 5px;
+	border-top: 5px solid #1d4adb;
+	border-bottom: 5px solid #1d4adb;
+	box-shadow: 0 0 10px #000;
+}
+.form-saisie input[type="submit"].btnConn{
+	width: 100%;
+	font-size: 18px;
+	background-color: #1d4adb;
+	color: #fff;
+	margin: 209x 0;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.6s;
+	margin-bottom: 25px;
+}
+.form-saisie input[type="submit"].btnConn:hover{
+	background-color: blue;
+	color: #ececf0;
+	transform: scale(1.05);
+}
+.form-saisie{
+	font-size: 14px;
+	font-weight: bold;
+}
